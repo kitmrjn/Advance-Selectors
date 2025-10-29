@@ -40,12 +40,24 @@ body{
     height: 5rem;
 }
 
-.first .last{
+.first{
     flex: 1;
+    background-image: url(albert.jpg);
+    background-size: cover;
+    border-right-color: blue;
+    border-right-style: solid;
+}
+
+.third  {
+    flex: 1;
+    background-image: url(roj.jpg);
+    background-size: cover;
+    border-left-color: blue;
+    border-left-style: solid;
 }
 
 .middle{
-    flex: 2;
+    flex: 3;
     background-color: white;
     display: flex;
     justify-content: center;
